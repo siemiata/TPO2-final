@@ -11,7 +11,7 @@ public class SerwerDE {
     private ServerSocket serverSocket;
     HashMap<String, String> deMap = new HashMap<>();
     public void insertDictionary(HashMap deMap){
-        try (BufferedReader br = new BufferedReader(new FileReader("dicDE.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("Server/dicDE.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(";");

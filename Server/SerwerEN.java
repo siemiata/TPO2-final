@@ -12,7 +12,7 @@ public class SerwerEN {
     HashMap<String, String> engMap = new HashMap<>();
     private ServerSocket serverSocket;
     public void insertDictionary(HashMap engMap){
-        try (BufferedReader br = new BufferedReader(new FileReader("dicEN.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("Server/dicEN.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(";");

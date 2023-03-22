@@ -12,7 +12,7 @@ public class SerwerFR {
     private ServerSocket serverSocket;
     HashMap<String, String> frMap = new HashMap<>();
     public void insertDictionary(HashMap frMap){
-        try (BufferedReader br = new BufferedReader(new FileReader("dicFR.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("Server/dicFR.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(";");
