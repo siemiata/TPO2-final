@@ -1,0 +1,10 @@
+dom;house
+ryba;fish
+pies;dog
+kot;cat
+aktor;actor
+reklama;advertisement
+powietrze;air
+alkohol;alcohol
+stolik;table
+plecy;back

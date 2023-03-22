@@ -1,0 +1,10 @@
+dom;haus
+ryba;fisch
+pies;hund
+kot;katze
+aktor;schauspieler
+reklama;werbung
+powietrze;luft
+alkohol;alkohol
+stolik;tisch
+plecy;zurück
